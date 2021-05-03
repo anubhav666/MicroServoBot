@@ -8,7 +8,8 @@
 #define sensorPin1 A1    // Hand
 #define sensorPin2 A2    // Hinge   
 
-int buttonPushCounter = 1;   
+int buttonPushCounter = 1;
+// Global Flag for button state
 bool buttonState;  
 
 Servo servo_0;
@@ -18,8 +19,10 @@ Servo servo_2;
 int SensVal[3];
 float state_0[3],state_1[3],state_2[3];
 
-void buttonTicker() {
-  buttonState = HIGH;
+// Interrupt Service Routine to set buttonState
+void buttonTicker()
+{
+  buttonState = HIGH; // Sets the state as HIGH
 }
 
 void setup() {
@@ -59,12 +62,12 @@ void Servowrite(float state[])
 }
 
 void loop() {
-  if (buttonState) {
+  if (buttonState) { // if button is pressed
     buttonPushCounter++;
     Serial.print("Number of button pushes: ");
     Serial.println(buttonPushCounter);
     delay(1000);
-    buttonState = LOW;
+    buttonState = LOW;// Resets buttonState
   }
   if (buttonPushCounter % 4 == 0) {
     Serial.println("Playing Steps....");
