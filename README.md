@@ -53,3 +53,5 @@ Here's the Schematic below:
 →Select the board to your desired Arduino(UNO for this project)<br>
 →You can also Code/Upload Online using Online Code Editor(IDE) at https://create.arduino.cc/editor
 ![image](https://user-images.githubusercontent.com/56502015/116350574-c7809280-a80f-11eb-871b-a367dcbda26d.png)
+Here's a live demonstration:<br>
+[![Micro Servo Bot](https://img.youtube.com/vi/86RMcUjELao/0.jpg)](https://www.youtube.com/watch?v=86RMcUjELao)
