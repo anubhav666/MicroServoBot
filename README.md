@@ -52,4 +52,8 @@ Here's the Schematic below:
 →Check if the baud rate is set to 9600 bps(for serial monitor)<br>
 →Select the board to your desired Arduino(UNO for this project)<br>
 →You can also Code/Upload Online using Online Code Editor(IDE) at https://create.arduino.cc/editor
-![image](https://user-images.githubusercontent.com/56502015/116350574-c7809280-a80f-11eb-871b-a367dcbda26d.png)
+![image](https://user-images.githubusercontent.com/56502015/116350574-c7809280-a80f-11eb-871b-a367dcbda26d.png)<br>
+Here's a live demonstration:<br>
+
+https://user-images.githubusercontent.com/56502015/118628124-f32ce200-b7e9-11eb-8b24-9a5a066bc7e7.mp4
+
